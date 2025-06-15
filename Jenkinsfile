@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/Anupj11/website-cicd.git'
+                git branch: 'main', url: 'https://github.com/Anupj11/CI-with-jenkins.git'
             }
         }
         stage('Build Docker Image') {
